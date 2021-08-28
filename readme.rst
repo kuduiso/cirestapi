@@ -1,3 +1,11 @@
+*******************
+CI3 REST API
+*******************
+Belajar membuat REST API CI3 dengan library 
+https://www.github.com/chriskacerguis/codeigniter-restserver
+
+
+
 ###################
 What is CodeIgniter
 ###################
