@@ -1,9 +1,8 @@
 <?php
+use chriskacerguis\RestServer\RestController;
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use chriskacerguis\RestServer\RestController;
-
-class Api extends RestController {
+class Users extends RestController {
 
     function __construct()
     {
@@ -11,7 +10,7 @@ class Api extends RestController {
         parent::__construct();
     }
 
-    public function users_get()
+    public function index_get()
     {
         // Users from a data store e.g. database
         $users = [
